@@ -1,0 +1,30 @@
+<html>
+    
+ <body>
+    <h1>hi!! there <%= data.msg %> </h1>
+    <h4>Login</h4>
+    <form action="/login" method="GET">
+   <label for="username">Username</label>
+   <input type="text" name="username">
+   <br>
+   <label for="password">Password</label>
+   <input type="password" name="password">
+   <br>
+   <button type="submit">Login</button>
+    </form>
+    <hr>
+    <h4>Sign In</h4>
+    <form action="/register" method="POST">
+      <label for="username">Username</label>
+      <input type="text" name="username">
+      <br>
+      <label for="password">Password</label>
+      <input type="password" name="password">
+      <br>
+      <label for="name">Name</label>
+      <input type="text" name="name">
+      <br>
+      <button type="submit">Sign In</button>
+       </form>
+ </body>
+</html>
